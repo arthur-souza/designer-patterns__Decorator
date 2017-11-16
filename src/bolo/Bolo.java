@@ -8,22 +8,22 @@ public abstract class Bolo {
     protected String decoracao;
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
     public String getSabor() {
-        return sabor;
+        return this.sabor;
     }
 
     public Double getValor() {
-        return valor;
+        return this.valor;
     }
 
     public String getCobertura() {
-        return cobertura;
+        return this.cobertura;
     }
 
     public String getDecoracao() {
-        return decoracao;
+        return this.decoracao;
     }
 }

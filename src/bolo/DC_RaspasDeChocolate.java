@@ -7,14 +7,14 @@ public class DC_RaspasDeChocolate extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 15.0;
+        return this.bolo.getValor() + 15.00;
     }
 
     @Override
     public String getDecoracao() {
-        if(bolo.getDecoracao() == null)
+        if(this.bolo.getDecoracao() == null)
             return "Raspas de Chocolate";
 
-        return bolo.getDecoracao() + " + Raspas de Chocolate";
+        return this.bolo.getDecoracao() + " + Raspas de Chocolate";
     }
 }

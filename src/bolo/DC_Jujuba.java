@@ -7,14 +7,14 @@ public class DC_Jujuba extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 10.0;
+        return this.bolo.getValor() + 10.0;
     }
 
     @Override
     public String getDecoracao() {
-        if(bolo.getDecoracao() == null)
+        if(this.bolo.getDecoracao() == null)
             return "Jujuba";
 
-        return bolo.getDecoracao() + " + Jujuba";
+        return this.bolo.getDecoracao() + " + Jujuba";
     }
 }

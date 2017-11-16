@@ -7,14 +7,14 @@ public class CB_Chantili extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 15.0;
+        return this.bolo.getValor() + 15.00;
     }
 
     @Override
     public String getCobertura() {
-        if(bolo.getCobertura() == null)
+        if(this.bolo.getCobertura() == null)
             return "Chantili";
 
-        return bolo.getCobertura() + " + Chantili";
+        return this.bolo.getCobertura() + " + Chantili";
     }
 }

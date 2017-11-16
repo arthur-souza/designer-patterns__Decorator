@@ -9,26 +9,26 @@ public abstract class BoloDecorator extends Bolo{
 
     @Override
     public String getNome() {
-        return bolo.getNome();
+        return this.bolo.getNome();
     }
 
     @Override
     public String getSabor() {
-        return bolo.getSabor();
+        return this.bolo.getSabor();
     }
 
     @Override
     public Double getValor() {
-        return bolo.getValor();
+        return this.bolo.getValor();
     }
 
     @Override
     public String getCobertura() {
-        return bolo.getCobertura();
+        return this.bolo.getCobertura();
     }
 
     @Override
     public String getDecoracao() {
-        return bolo.getDecoracao();
+        return this.bolo.getDecoracao();
     }
 }

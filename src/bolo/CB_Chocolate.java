@@ -7,14 +7,14 @@ public class CB_Chocolate extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 5.0;
+        return this.bolo.getValor() + 12.00;
     }
 
     @Override
     public String getCobertura() {
-        if(bolo.getCobertura() == null)
+        if(this.bolo.getCobertura() == null)
             return "Chocolate";
 
-        return bolo.getCobertura() + " + Chocolate";
+        return this.bolo.getCobertura() + " + Chocolate";
     }
 }

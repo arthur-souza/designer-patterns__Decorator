@@ -7,14 +7,14 @@ public class DC_GranuladoDeChocolate extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 5.0;
+        return this.bolo.getValor() + 8.00;
     }
 
     @Override
     public String getDecoracao() {
-        if(bolo.getDecoracao() == null)
+        if(this.bolo.getDecoracao() == null)
             return "Granulado de Chocolate";
 
-        return bolo.getDecoracao() + " + Granulado de Chocolate";
+        return this.bolo.getDecoracao() + " + Granulado de Chocolate";
     }
 }

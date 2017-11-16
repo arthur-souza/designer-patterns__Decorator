@@ -2,6 +2,7 @@ import bolo.*;
 
 public class main {
     public static void main(String[] args) {
+        /*
         Bolo boloDeChocolate = new BoloDeChocolate("Super Bolo de Chocolate"); // Criando um Bolo
         boloInfo(boloDeChocolate); // Exibindo as informações do Bolo
 
@@ -15,7 +16,8 @@ public class main {
         boloDeChocolate = new CB_Chantili(boloDeChocolate); // Adiciona Cobertura de chantili
         boloDeChocolate = new DC_GranuladoDeChocolate(boloDeChocolate); // Adiciona Granulados de Chocolate
         boloDeChocolate = new DC_RaspasDeChocolate(boloDeChocolate); // Adiciona Raspas de Chocolate
-        boloInfo(boloDeChocolate); // Exibe as informações do bolo
+        boloInfo(boloDeChocolate); // Exibe as informações do bolo 
+        */
     }
 
     // Exibe as informações de um Bolo

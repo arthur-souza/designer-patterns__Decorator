@@ -7,14 +7,14 @@ public class CB_LeiteCondensado extends BoloDecorator{
 
     @Override
     public Double getValor() {
-        return bolo.getValor() + 10.0;
+        return this.bolo.getValor() + 18.0;
     }
 
     @Override
     public String getCobertura() {
-        if(bolo.getCobertura() == null)
+        if(this.bolo.getCobertura() == null)
             return "Leite Condesado";
 
-        return bolo.getCobertura() + " + Leite Condesado";
+        return this.bolo.getCobertura() + " + Leite Condesado";
     }
 }
